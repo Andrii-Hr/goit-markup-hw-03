@@ -90,14 +90,12 @@ line-height: 1.2;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;    
-    padding-top: 10px;
-    padding-bottom: 10px; 
-       
+
 }
 
 .header-logo{
     margin-right: 93px;  
-    margin-left: 50px;  
+     
 }    
 
 .site-nav-flex {
@@ -122,7 +120,12 @@ color:var(--accent-color);
 }
 
 .contact-post{
-    
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.15px;
+letter-spacing: 0.02em;
 }
 
 
@@ -260,7 +263,9 @@ border: 1px solid  rgba(116, 93, 93, 0.1);
 .portfolio-section{
     padding: 94px 0;
 }
-
+.section-ourworks{
+    padding-bottom: 94px;
+    }
 
 .header {
 background-color: var(--primary-white-color);
@@ -372,7 +377,7 @@ padding-bottom: 60px;
 }
 
 .footer-nav {
-
+margin-bottom: 9px;
 font-family: 'Roboto';
 font-size: 14px;
 line-height: 1.7;
@@ -389,6 +394,14 @@ text-decoration: none;
 }
 
 .footer-link  {
+font-family: 'Roboto';
+font-size: 14px;
+line-height: 1.7;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+}
+.footer-link-mail {
+margin-bottom: 9px;
 font-family: 'Roboto';
 font-size: 14px;
 line-height: 1.7;
@@ -439,14 +452,9 @@ background-color: var(--primary-bg-color);
     border: 1px solid  rgba(116, 93, 93, 0.075);    
 }
 
-.flex-portf-button{    
-    gap: 8px;      
-}
-
 .portfolio-button {
 display:inline-block;
 border-radius: 4px;
-padding:  6px 22px;
 border: 1px solid transparent;
 background-color: var(--second-bg-color);
 color: var(--primary-text-color);
@@ -456,7 +464,8 @@ font-size: 16px;
 line-height: 1.6;
 text-align: center;
 cursor: pointer;
-margin-bottom: 34px;
+padding:  6px 22px;
+
 }
 
 .portfolio-button:hover,
@@ -482,20 +491,11 @@ margin-bottom: 4px;
 
 }
 
-.portf-button-list{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-
-}
 
 .flex-portf-button{
-    display:flex;
     gap: 8px;
+    display:flex;
     justify-content: center;  
-    padding: 6px 22px;
     margin-bottom: 50px;
 }
 
