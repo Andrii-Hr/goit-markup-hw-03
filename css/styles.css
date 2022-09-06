@@ -377,6 +377,7 @@ padding-bottom: 60px;
 }
 
 .footer-nav {
+    display: inline-block;
 margin-bottom: 9px;
 font-family: 'Roboto';
 font-size: 14px;
@@ -401,6 +402,7 @@ color: rgba(255, 255, 255, 0.6);
 text-decoration: none;
 }
 .footer-link-mail {
+    display: inline-block;
 margin-bottom: 9px;
 font-family: 'Roboto';
 font-size: 14px;
